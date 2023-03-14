@@ -1,0 +1,261 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    background: radial-gradient(at top, rgb(2, 255, 2) -10%, rgb(0, 8, 122) 10%, #000000 60%);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 9999;
+    text-align: center;
+}
+
+header .logo {
+    display: inline-block;
+    width: 33%;
+}
+
+header div {
+    display: inline-block;
+    width: 33%;
+}
+
+header div p {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+header div button {
+    margin: 10px auto 0;
+    padding: 5px;
+    background-color: #007bff57;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header div h1 {
+    color: white;
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    width: 33%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: lime;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.logo img {
+    position: relative;
+    top: 15px;
+    height: 50px;
+}
+
+main {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.seccion-1 {
+    position: relative;
+}
+
+.seccion-1 .contenedor-principal {
+    left: 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.contenedor-principal h1 {
+    font-size: 80px;
+}
+
+.contenedor-principal p {
+    font-size: 20px;
+}
+
+.contenedor-principal button {
+    margin: 10px auto 0;
+    padding: 15px 100px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 25px red;
+}
+
+
+.contenedor-principal a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.seccion-2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+
+.seccion-2 .contenedor-1 {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    background: linear-gradient(to bottom right, white, cyan);
+    border-radius: 10px;
+}
+
+.seccion-2 .contenedor-1 img {
+    width: 70%;
+    margin: 30px 15%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.seccion-2 .contenedor-1 h2 {
+    font-size: 27px;
+    padding: 0 40px;
+}
+
+.seccion-2 .contenedor-1 p {
+    font-size: 24px;
+    padding: 0 40px;
+}
+
+.seccion-2 .contenedor-1 button {
+    margin: 0 40px;
+    padding: 5px;
+    background-color: #5555557e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.seccion-2 .contenedor-2 {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    background-color: #5555557e;
+    border-radius: 10px;
+}
+
+.seccion-2 .contenedor-2 .imagenes {
+    width: 100%;
+    margin: 90px 5%;
+    display: flex;
+}
+
+.seccion-2 .contenedor-2 .imagenes img {
+    width: 15%;
+    margin: 10px;
+    background-color: #b9b9b979;
+    border-radius: 20px;
+    box-shadow: 0 0 8px white;
+}
+
+.seccion-2 .contenedor-2 h2 {
+    font-size: 27px;
+    padding: 0 40px;
+}
+
+.seccion-2 .contenedor-2 p {
+    font-size: 24px;
+    padding: 0 40px;
+}
+
+.seccion-2 .contenedor-2 button {
+    margin: 0 40px;
+    padding: 5px;
+    background-color: #8f8e8e7e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.seccion-3 {
+    width: 100%;
+    position: relative;
+    padding: 10px 150px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.seccion-3 h1 {
+    width: 100%;
+    font-size: 52px;
+    display: block;
+}
+
+.seccion-3 div {
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    background-color: #3d3d3d94;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.seccion-3 div img {
+    width: 15%;
+    margin: 10px;
+    background-color: #b9b9b979;
+    border-radius: 20px;
+
+}

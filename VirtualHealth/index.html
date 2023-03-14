@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Virtual Health</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <script src="https://kit.fontawesome.com/be0b57e57e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="nombre">
+            <p><b>VIRTUAL</b>HEALTH</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">Records</a></li>
+                <li><a href="#">Interact</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Providers</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="usuario">
+            <img src="./img/perfil.jpeg" alt="">
+            <select class="opciones" name="opciones" id="opciones">
+                <option>Kirsten Mcellar</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+        </div>
+    </header>
+    <div class="contenedor-a">
+
+        <aside class="menu-lateral">
+            <div class="contenedor">
+                <nav>
+                    <ul>
+                        <li>
+                            <i class="fa fa-user-group fa-2x"></i>
+                            <a href="#">clients</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-heart-pulse fa-2x"></i>
+                            <a href="#">monitoring</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-chart-pie fa-2x"></i>
+                            <a href="#">reporting</a>
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-location-dot fa-2x"></i>
+                            <a href="#">locations</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-file-export fa-2x"></i>
+                            <a href="#">logs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="need-help">
+                    <div>
+                        <i class="fa-solid fa-compass fa-2x"></i>
+                        <a href="#">Need Help?</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="fomulario-tabla">
+                <div>
+                    <div class="menu-formulario">
+                        <ul>
+                            <li><a href="#">Alerts</a><span class="notificaciones">8</span></a></li>
+                            <li><a href="#">Tasks</a></li>
+                            <li><a href="#">Risk</a></li>
+                            <li><a href="#">Authorizations</a></li>
+                            <li><a href="#">Vitals</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Resolved</a></li>
+                            <li><a href="#">Unresolved</a></li>
+                        </ul>
+                    </div>
+                    <div class="tabla-form">
+                        <form action="">
+                            <div class="fila-1">
+                                <div class="name">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" name="first-name" id="first-name">
+                                </div>
+                                <div class="l-name">
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" name="last-name" id="last-name">
+                                </div>
+                                <div class="start-d">
+                                    <label for="start-date">Start date</label>
+                                    <input type="date" name="start-date" id="start-date">
+                                </div>
+                                <div class="end-d">
+                                    <label for="end-date">End date</label>
+                                    <input type="date" name="end-date" id="end-date">
+                                </div>
+                            </div>
+                            <div class="fila-2">
+                                <div class="range-d">
+                                    <label for="date-range">Date range</label>
+                                    <div class="group-btn">
+                                        <button type="menu">1 day</button>
+                                        <button type="menu">7 days</button>
+                                        <button type="menu">30 days</button>
+                                        <button type="menu">90 days</button>
+                                        <button type="menu">All</button>
+                                    </div>
+                                </div>
+                                <div class="source-div">
+                                    <label for="source">Source</label>
+                                    <select class="source" name="source" id="source">
+                                        <option>Select source</option>
+                                    </select>
+                                </div>
+                                <div class="botones">
+                                    <button type="submit">Search</button>
+                                    <button type="reset">x</button>
+                                </div>
+                            </div>
+                        </form>
+                        <table>
+                            <thead>
+                                <th>Date/Time of alert</th>
+                                <th>Cliend name</th>
+                                <th>Source</th>
+                                <th>Value</th>
+                                <th>Alert</th>
+                                <th>Alert type</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>08.01.2016 01.01PM</td>
+                                    <td>Doe, john</td>
+                                    <td>Clinical pulse rate</td>
+                                    <td>N/A</td>
+                                    <td class="alert">Over 2 days</td>
+                                    <td>Time-based</td>
+                                </tr>
+                                <tr>
+                                    <td>08.01.2016 01.01PM</td>
+                                    <td>Doe, john</td>
+                                    <td>Clinical pulse rate</td>
+                                    <td>N/A</td>
+                                    <td class="alert">Over 2 days</td>
+                                    <td>Time-based</td>
+                                </tr>
+                                <tr>
+                                    <td>08.01.2016 01.01PM</td>
+                                    <td>Doe, john</td>
+                                    <td>Clinical pulse rate</td>
+                                    <td>N/A</td>
+                                    <td class="alert">Over 2 days</td>
+                                    <td>Time-based</td>
+                                </tr>
+                                <tr>
+                                    <td>08.01.2016 01.01PM</td>
+                                    <td>Doe, john</td>
+                                    <td>Clinical pulse rate</td>
+                                    <td class="value">9.8Ms</td>
+                                    <td class="alert">Over 2 days</td>
+                                    <td>Time-based</td>
+                                </tr>
+                                <tr>
+                                    <td>08.01.2016 01.01PM</td>
+                                    <td>Doe, john</td>
+                                    <td>Clinical pulse rate</td>
+                                    <td>N/A</td>
+                                    <td class="alert">Over 2 days</td>
+                                    <td>Time-based</td>
+                                </tr>
+                                <tr>
+                                    <td>08.01.2016 01.01PM</td>
+                                    <td>Doe, john</td>
+                                    <td>Clinical pulse rate</td>
+                                    <td>N/A</td>
+                                    <td class="alert">Over 2 days</td>
+                                    <td>Time-based</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="nav-pag">
+                            <button>&lt;</button>
+                            <p>Page 1 of 4</p>
+                            <button>&gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

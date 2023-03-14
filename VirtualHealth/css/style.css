@@ -1,0 +1,489 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /*padding: 0;*/
+}
+
+.encabezado {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 -1px 3px black;
+    z-index: 1;
+}
+
+.encabezado div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.encabezado p {
+    color: #005faf;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding: 10px 15%;
+    border-right: solid 1px grey;
+}
+
+.encabezado nav {
+    display: inline-block;
+    padding: 10px 10%;
+    border-right: solid 1px grey;
+
+}
+
+.encabezado nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.encabezado nav li {
+    margin: 0 15px;
+}
+
+.encabezado nav li a:hover {
+    text-decoration: none;
+    color: #005faf;
+}
+
+.encabezado nav a {
+    color: #525252;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.encabezado div {
+    height: 50%;
+}
+
+.encabezado div img {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.encabezado div .opciones {
+    background-color: white;
+    height: 100%;
+    border: none;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .contenedor-a {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu-lateral {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-color: #005faf;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor nav {
+    height: 60%;
+}
+
+.menu-lateral div {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-lateral nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu-lateral nav ul li {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #007dc3;
+    border-bottom: solid #007dc3;
+    border-width: thin;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lateral a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu-lateral nav ul li:hover {
+    background-color: #007dc3;
+    color: white;
+}
+
+.menu-lateral nav ul li p {
+    display: inline-block;
+}
+
+.menu-lateral .need-help {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    background-color: #005faf;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral .need-help div {
+    position: relative;
+    height: 15%;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgb(0, 44, 88);
+}
+
+.menu-lateral .need-help div:hover {
+    background-color: rgb(0, 77, 155);
+}
+
+.menu-lateral div p {
+    display: inline-block;
+}
+
+.menu-lateral div i {
+    width: 30px;
+    padding: 10px 20px;
+}
+
+main {
+    position: relative;
+    display: inline-block;
+    background-color: #f5f5f5;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+main .menu-formulario {
+    position: relative;
+    display: flex;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -1px 3px black;
+}
+
+.menu-formulario ul li a {
+    color: #525252;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+
+span {
+    position: absolute;
+    background-color: #ff2805;
+    color: white;
+    border-radius: 50%;
+    font-size: 13px;
+    height: 15px;
+    width: 15px;
+    top: 10px;
+    left: 100px;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, .15);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .35),
+        0px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.menu-formulario ul li a:hover {
+    color: black;
+    border-bottom: 3px solid #005faf;
+    ;
+}
+
+.tabla-form {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+
+}
+
+main ul {
+    list-style: none;
+    height: 100%;
+}
+
+main ul li {
+    display: inline-flex;
+    font-weight: bold;
+    height: 100%;
+}
+
+main form {
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    height: 250px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.fila-1{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fila-2{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form label {
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    width: 25%;
+}
+
+form input {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.source {
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.source-div {
+    margin-left: 10px;
+    width: 25%;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 25%;
+}
+
+form button[type="submit"] {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 40px;
+}
+
+form button[type="submit"]:hover {
+    color: black;
+}
+
+form button[type="reset"] {
+    display: block;
+    padding: 10px;
+    background-color: white;
+    color: rgb(63, 63, 63);
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 50%;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+form button[type="reset"]:hover {
+    color: black;
+}
+
+.group-btn {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.range-d {
+    margin-right: 0px;
+    width: 50%;
+}
+
+.group-btn button {
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(63, 63, 63);
+    border: 2px solid white;
+    padding: 10px 12px;
+    margin: 5px 10px;
+    font-weight: bold;
+    width: 20%;
+}
+
+.group-btn button:hover {
+    background-color: white;
+    color: #005faf;
+    border: 2px solid #005faf;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+main table {
+    background-color: white;
+    width: 90%;
+    margin-top: 2px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+th {
+    font-size: 16px;
+    border-collapse: collapse;
+    border: 3px solid #f5f5f5;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+tr,
+td {
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 3px solid #f5f5f5;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.alert {
+    color: red;
+}
+
+.value {
+    font-weight: bold;
+    color: red;
+}
+
+.nav-pag {
+    display: flex;
+    align-items: center;
+    right: 10px;
+    width: 100%;
+    justify-content: end;
+    padding: 10px 10px;
+}
+
+.nav-pag button {
+    background-color: #dfdfdf;
+    border: none;
+    color: rgb(63, 63, 63);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.nav-pag button:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-pag p {
+    color: rgb(63, 63, 63);
+}

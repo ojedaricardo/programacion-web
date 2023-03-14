@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Basic Details</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <script src="https://kit.fontawesome.com/be0b57e57e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <aside>
+        <button type="button">
+            <i class="fa-solid fa-arrow-up fa-2x"></i>
+        </button>
+        <div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+        </div>
+        <button type="button">
+            <i class="fa-solid fa-arrow-down fa-2x"></i>
+        </button>
+    </aside>
+    <main>
+        <div class="contenedor">
+            <h1>Basic Details</h1>
+            <form action="">
+                <div class="last-first-name">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" minlength="3" maxlength="20" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" minlength="2" maxlength="20" required>
+                    </div>
+                </div>
+                <div class="email-user-id">
+                    <div>
+                        <label for="email-id">Email ID</label>
+                        <input type="email" name="email-id" id="email-id" required>
+                    </div>
+                    <div>
+                        <label for="user-id">Your User ID</label>
+                        <input type="text" name="user-id" id="user-id" minlength="10" maxlength="15" required>
+                    </div>
+                </div>
+                <div class="direccion">
+                    <div class="div-b">
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="India">India</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Canadá">Canadá</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Estados Unidos">Estados Unidos</option>
+                            <option value="México">México</option>
+                            <option value="Perú">Perú</option>
+                        </select>
+                    </div>
+                    <div class="div-a">
+                        <label for="stade">Stade</label>
+                        <select name="stade" id="stade">
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Alberta">Alberta</option>
+                            <option value="Santiago">Santiago</option>
+                            <option value="Cundinamarca">Cundinamarca</option>
+                            <option value="Pichincha">Pichincha</option>
+                            <option value="California">California</option>
+                            <option value="Jalisco">Jalisco</option>
+                            <option value="Lima">Lima</option>
+                        </select>
+                    </div>
+                    <div class="div-a">
+                        <label for="city">City</label>
+                        <select name="city" id="city">
+                            <option value="Pune">Pune</option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Calgary">Calgary</option>
+                            <option value="Santiago de Chile">Santiago de Chile</option>
+                            <option value="Bogotá">Bogotá</option>
+                            <option value="Quito">Quito</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Guadalajara">Guadalajara</option>
+                            <option value="Lima">Lima</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="phone-reference">
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="text" pattern="\(\d{3}\)\d{3}-\d{2}-\d{2}" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Reference Code" pattern="\d{3}-\d{3}" required>
+                    </div>
+                </div>
+                <div class="botones">
+                    <button type="reset">Reset All</button>
+                    <button type="submit">Continue</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
